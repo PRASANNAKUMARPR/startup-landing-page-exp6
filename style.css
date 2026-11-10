@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #14213d;
+    text-align: center;
+}
+
+header {
+    background: #14213d;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    background: #dbeafe;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 45px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #14213d;
+}
+
+#clock {
+    font-size: 35px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.tools {
+    background: #dbeafe;
+}
+
+input {
+    display: block;
+    padding: 12px;
+    margin: 12px auto;
+    width: 250px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+footer {
+    background: #14213d;
+    color: white;
+    padding: 20px;
+}
+
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}

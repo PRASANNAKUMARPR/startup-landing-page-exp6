@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>StartUp</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Build Your Future With Us</h1>
+    <p>Creative digital solutions for your business.</p>
+    <button id="startButton">Get Started</button>
+    <p id="welcome"></p>
+</section>
+
+<section class="clock-section">
+    <h2>Digital Clock</h2>
+    <p id="clock">Loading...</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Modern websites.</p>
+        </div>
+        <div class="card">
+            <h3>Digital Marketing</h3>
+            <p>Online business growth.</p>
+        </div>
+        <div class="card">
+            <h3>Business Solutions</h3>
+            <p>Creative business ideas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="team">
+    <h2>Our Team</h2>
+    <div id="teamList" class="cards"></div>
+</section>
+
+<section class="tools">
+    <h2>Background Colour Changer</h2>
+    <button id="colorButton">Start</button>
+    <button id="stopButton">Stop</button>
+    <p id="status"></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" id="name"
+            placeholder="Your Name" required>
+        <input type="email" id="email"
+            placeholder="Your Email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+</section>
+
+<footer>
+    <p>Copyright 2026 StartUp. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
